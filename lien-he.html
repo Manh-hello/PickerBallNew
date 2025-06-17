@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - PickNews.vn</title>
+    <link rel="stylesheet" href="./asset/css/reset.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <span class="logo-icon">🏓</span>
+                <span class="logo-text">PickNews.vn</span>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Trang Chủ</a></li>
+                <li><a href="gioi-thieu.html" class="nav-link">Giới Thiệu</a></li>
+                <li><a href="tin-tuc.html" class="nav-link">Tin Tức</a></li>
+                <li><a href="giai-dau.html" class="nav-link">Giải Đấu</a></li>
+                <li><a href="san-pham.html" class="nav-link">Sản Phẩm</a></li>
+                <li><a href="lien-he.html" class="nav-link active">Liên Hệ</a></li>
+                <!-- <li><a href="lien-he.html" class="nav-link cta-button active">Liên Hệ</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>Liên Hệ</h1>
+            <p>Kết nối với chúng tôi để nhận thông tin mới nhất về pickleball</p>
+        </div>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="contact-section">
+        <div class="contact-container">
+            <div class="contact-info">
+                <h2>Thông Tin Liên Hệ</h2>
+                <p>Chúng tôi luôn sẵn sàng lắng nghe và hỗ trợ bạn. Hãy liên hệ với PickNews.vn qua các kênh dưới đây.</p>
+                
+                <div class="contact-methods">
+                    <div class="contact-item">
+                        <div class="contact-icon">📧</div>
+                        <div class="contact-details">
+                            <h3>Email</h3>
+                            <p>info@picknews.vn</p>
+                            <p>editor@picknews.vn</p>
+                            <span class="contact-note">Phản hồi trong vòng 24 giờ</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Điện Thoại</h3>
+                            <p>Hotline: 0123 456 789</p>
+                            <p>Zalo: 0987 654 321</p>
+                            <span class="contact-note">8:00 - 22:00 hàng ngày</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Địa Chỉ</h3>
+                            <p>123 Đường ABC, Phường XYZ</p>
+                            <p>Quận 1, TP. Hồ Chí Minh</p>
+                            <span class="contact-note">Văn phòng làm việc</span>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">🕒</div>
+                        <div class="contact-details">
+                            <h3>Giờ Làm Việc</h3>
+                            <p>Thứ 2 - Thứ 6: 8:00 - 18:00</p>
+                            <p>Thứ 7 - Chủ Nhật: 9:00 - 17:00</p>
+                            <span class="contact-note">Nghỉ các ngày lễ tết</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="social-contact">
+                    <h3>Theo Dõi Chúng Tôi</h3>
+                    <div class="social-links-detailed">
+                        <a href="#" class="social-link facebook">
+                            <span class="social-icon">📘</span>
+                            <div>
+                                <strong>Facebook</strong>
+                                <span>@PickNewsVN</span>
+                            </div>
+                        </a>
+                        <a href="#" class="social-link instagram">
+                            <span class="social-icon">📷</span>
+                            <div>
+                                <strong>Instagram</strong>
+                                <span>@picknews.vn</span>
+                            </div>
+                        </a>
+                        <a href="#" class="social-link youtube">
+                            <span class="social-icon">📺</span>
+                            <div>
+                                <strong>YouTube</strong>
+                                <span>PickNews Vietnam</span>
+                            </div>
+                        </a>
+                        <a href="#" class="social-link tiktok">
+                            <span class="social-icon">🎵</span>
+                            <div>
+                                <strong>TikTok</strong>
+                                <span>@picknewsvn</span>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact-form-section">
+                <h2>Gửi Tin Nhắn</h2>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <label for="name">Họ và Tên *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số Điện Thoại</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Chủ Đề *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Chọn chủ đề</option>
+                            <option value="news">Góp ý về tin tức</option>
+                            <option value="tournament">Thông tin giải đấu</option>
+                            <option value="product">Review sản phẩm</option>
+                            <option value="partnership">Hợp tác</option>
+                            <option value="advertising">Quảng cáo</option>
+                            <option value="other">Khác</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Nội Dung *</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Nhập nội dung tin nhắn của bạn..." required></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <span class="checkmark"></span>
+                            Đăng ký nhận bản tin hàng tuần về pickleball
+                        </label>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="privacy" name="privacy" required>
+                            <span class="checkmark"></span>
+                            Tôi đồng ý với <a href="#">Chính sách bảo mật</a> và <a href="#">Điều khoản sử dụng</a>
+                        </label>
+                    </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Gửi Tin Nhắn</span>
+                        <span class="btn-icon">📤</span>
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="section-header">
+            <h2>Câu Hỏi Thường Gặp</h2>
+            <p>Những câu hỏi phổ biến từ cộng đồng độc giả</p>
+        </div>
+        <div class="faq-container">
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Làm thế nào để đăng ký nhận bản tin?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Bạn có thể đăng ký nhận bản tin bằng cách điền email vào form liên hệ và tích chọn "Đăng ký nhận bản tin hàng tuần". Chúng tôi sẽ gửi những tin tức mới nhất về pickleball mỗi tuần.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Tôi có thể gửi bài viết cho PickNews.vn không?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Có, chúng tôi luôn chào đón các bài viết chất lượng từ cộng đồng. Vui lòng gửi bài viết qua email editor@picknews.vn với tiêu đề "Đóng góp bài viết". Bài viết sẽ được xem xét và phản hồi trong vòng 3-5 ngày làm việc.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Làm sao để hợp tác quảng cáo với PickNews.vn?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Để hợp tác quảng cáo, vui lòng liên hệ qua email info@picknews.vn với tiêu đề "Hợp tác quảng cáo" hoặc gọi hotline 0123 456 789. Chúng tôi có nhiều gói quảng cáo phù hợp với mọi ngân sách.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">
+                    <h3>Thông tin trên website có chính xác không?</h3>
+                    <span class="faq-toggle">+</span>
+                </div>
+                <div class="faq-answer">
+                    <p>Tất cả thông tin trên PickNews.vn đều được kiểm chứng kỹ lưỡng từ các nguồn tin đáng tin cậy. Nếu phát hiện thông tin sai lệch, vui lòng liên hệ ngay để chúng tôi điều chỉnh kịp thời.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">🏓</span>
+                    <span class="logo-text">PickNews.vn</span>
+                </div>
+                <p>Nguồn tin tức pickleball hàng đầu Việt Nam, cung cấp thông tin chính xác và kịp thời về thế giới pickleball.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="YouTube">📺</a>
+                    <a href="#" aria-label="TikTok">🎵</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Nội Dung</h4>
+                    <ul>
+                        <li><a href="tin-tuc.html">Tin Tức</a></li>
+                        <li><a href="giai-dau.html">Giải Đấu</a></li>
+                        <li><a href="san-pham.html">Sản Phẩm</a></li>
+                        <li><a href="#">Kỹ Thuật</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Về Chúng Tôi</h4>
+                    <ul>
+                        <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+                        <li><a href="#">Đội Ngũ</a></li>
+                        <li><a href="lien-he.html">Liên Hệ</a></li>
+                        <li><a href="#">Tuyển Dụng</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Hỗ Trợ</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Hướng Dẫn</a></li>
+                        <li><a href="#">Chính Sách</a></li>
+                        <li><a href="#">Điều Khoản</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Liên Hệ</h4>
+                    <ul>
+                        <li>📧 info@picknews.vn</li>
+                        <li>📞 0123 456 789</li>
+                        <li>📍 123 Đường ABC</li>
+                        <li>🕒 24/7 Online</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PickNews.vn. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="./asset/js/main.js"></script>
+</body>
+</html>

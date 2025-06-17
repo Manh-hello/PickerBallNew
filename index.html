@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PickerBall New - Câu Lạc Bộ Pickleball Hàng Đầu</title>
+    <title>PickNews.vn - Tin Tức Pickleball Hàng Đầu Việt Nam</title>
+    <link rel="stylesheet" href="./asset/css/reset.css">
     <link rel="stylesheet" href="./asset/css/style.css">
 </head>
 <body>
@@ -11,7 +12,7 @@
         <div class="nav-content">
             <div class="logo">
                 <span class="logo-icon">🏓</span>
-                <span class="logo-text">PickerBall New</span>
+                <span class="logo-text">PickNews.vn</span>
             </div>
             <button class="mobile-menu-btn" aria-label="Toggle menu">
                 <span></span>
@@ -19,23 +20,25 @@
                 <span></span>
             </button>
             <ul class="nav-links">
-                <li><a href="">Trang Chủ</a></li>
-                <li><a href="#about">Giới Thiệu</a></li>
-                <li><a href="#services">Tin Tức</a></li>
-                <li><a href="#courts">Giải Đấu</a></li>
-                <li><a href="#events">Sản Phẩm</a></li>
-                <li><a href="#contact" class="cta-button">Liên Hệ</a></li>
+                <li><a href="index.html" class="nav-link active">Trang Chủ</a></li>
+                <li><a href="gioi-thieu.html" class="nav-link">Giới Thiệu</a></li>
+                <li><a href="tin-tuc.html" class="nav-link">Tin Tức</a></li>
+                <li><a href="giai-dau.html" class="nav-link">Giải Đấu</a></li>
+                <li><a href="san-pham.html" class="nav-link">Sản Phẩm</a></li>
+                <li><a href="lien-he.html" class="nav-link">Liên Hệ</a></li>
+            <!-- <li><a href="lien-he.html" class="nav-link cta-button">Liên Hệ</a></li> -->
             </ul>
         </div>
     </nav>
 
+    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
-            <h1>Chào mừng đến với <span class="highlight">PickerBall New</span></h1>
-            <p>Trải nghiệm môn thể thao pickleball đầy thú vị tại câu lạc bộ hàng đầu Việt Nam. Với cơ sở vật chất hiện đại và đội ngũ huấn luyện viên chuyên nghiệp.</p>
+            <h1>Chào mừng đến với <span class="highlight">PickNews.vn</span></h1>
+            <p>Nguồn tin tức pickleball hàng đầu Việt Nam. Cập nhật thông tin mới nhất về giải đấu, kỹ thuật, sản phẩm và cộng đồng pickleball trong nước và quốc tế.</p>
             <div class="cta-buttons">
-                <a href="#contact" class="primary-button">Đăng Ký Ngay</a>
-                <a href="#about" class="secondary-button">Tìm Hiểu Thêm →</a>
+                <a href="tin-tuc.html" class="primary-button">Đọc Tin Mới</a>
+                <a href="giai-dau.html" class="secondary-button">Xem Giải Đấu →</a>
             </div>
         </div>
         <div class="hero-image">
@@ -43,190 +46,118 @@
         </div>
     </section>
 
-    <section id="about" class="about">
-        <div class="section-header">
-            <h2>Về Chúng Tôi</h2>
-            <p>Câu lạc bộ pickleball hàng đầu tại Việt Nam</p>
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="stats-container">
+            <div class="stat-item">
+                <span class="stat-number">1000+</span>
+                <span class="stat-label">Bài Viết</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Giải Đấu</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">200+</span>
+                <span class="stat-label">Sản Phẩm Review</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-number">10K+</span>
+                <span class="stat-label">Độc Giả</span>
+            </div>
         </div>
-        <div class="about-content">
-            <div class="about-text">
-                <h3>Tại sao chọn PickerBall New?</h3>
-                <p>PickerBall New là câu lạc bộ pickleball tiên phong tại Việt Nam, mang đến trải nghiệm thể thao tuyệt vời cho mọi lứa tuổi. Chúng tôi tự hào với cơ sở vật chất hiện đại, đội ngũ huấn luyện viên giàu kinh nghiệm và môi trường thân thiện.</p>
-                <div class="stats">
-                    <div class="stat-item">
-                        <span class="stat-number">500+</span>
-                        <span class="stat-label">Thành Viên</span>
+    </section>
+
+    <!-- Featured News -->
+    <section class="featured-news">
+        <div class="section-header">
+            <h2>Tin Tức Nổi Bật</h2>
+            <p>Cập nhật những thông tin mới nhất từ thế giới pickleball</p>
+        </div>
+        <div class="news-grid">
+            <article class="news-card featured">
+                <img src="https://images.pexels.com/photos/8007398/pexels-photo-8007398.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2" alt="Giải đấu pickleball">
+                <div class="news-content">
+                    <span class="news-category">Giải Đấu</span>
+                    <h3>Giải Vô Địch Pickleball Việt Nam 2024 Chính Thức Khởi Tranh</h3>
+                    <p>Giải đấu lớn nhất năm với sự tham gia của hơn 500 vận động viên từ khắp cả nước, tổng giải thưởng lên đến 200 triệu đồng...</p>
+                    <div class="news-meta">
+                        <span class="news-date">15/12/2024</span>
+                        <span class="news-author">Biên tập viên</span>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">8</span>
-                        <span class="stat-label">Sân Thi Đấu</span>
+                    <a href="tin-tuc.html" class="read-more">Đọc thêm →</a>
+                </div>
+            </article>
+            <article class="news-card">
+                <img src="https://images.pexels.com/photos/8007399/pexels-photo-8007399.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2" alt="Kỹ thuật pickleball">
+                <div class="news-content">
+                    <span class="news-category">Kỹ Thuật</span>
+                    <h3>5 Bí Quyết Cải Thiện Kỹ Thuật Serve Trong Pickleball</h3>
+                    <p>Hướng dẫn chi tiết từ các chuyên gia hàng đầu để nâng cao hiệu quả serve và tăng tỷ lệ thắng...</p>
+                    <div class="news-meta">
+                        <span class="news-date">14/12/2024</span>
+                        <span class="news-author">HLV Minh Tuấn</span>
                     </div>
-                    <div class="stat-item">
-                        <span class="stat-number">50+</span>
-                        <span class="stat-label">Giải Đấu</span>
+                    <a href="tin-tuc.html" class="read-more">Đọc thêm →</a>
+                </div>
+            </article>
+            <article class="news-card">
+                <img src="https://images.pexels.com/photos/8007400/pexels-photo-8007400.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2" alt="Sản phẩm pickleball">
+                <div class="news-content">
+                    <span class="news-category">Sản Phẩm</span>
+                    <h3>Review Top 5 Vợt Pickleball Tốt Nhất 2024</h3>
+                    <p>Đánh giá chi tiết các dòng vợt pickleball được ưa chuộng nhất hiện nay với ưu nhược điểm từng loại...</p>
+                    <div class="news-meta">
+                        <span class="news-date">13/12/2024</span>
+                        <span class="news-author">Chuyên gia Hùng</span>
                     </div>
+                    <a href="san-pham.html" class="read-more">Đọc thêm →</a>
                 </div>
-            </div>
-            <div class="about-image">
-                <img src="https://images.pexels.com/photos/8007398/pexels-photo-8007398.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Pickleball court">
-            </div>
+            </article>
+        </div>
+        <div class="section-cta">
+            <a href="tin-tuc.html" class="primary-button">Xem Tất Cả Tin Tức</a>
         </div>
     </section>
 
-    <section id="services" class="services">
+    <!-- Quick Links -->
+    <section class="quick-links">
         <div class="section-header">
-            <h2>Dịch Vụ</h2>
-            <p>Đa dạng các dịch vụ phù hợp với mọi nhu cầu</p>
+            <h2>Khám Phá Nhanh</h2>
+            <p>Truy cập nhanh các mục chính của website</p>
         </div>
-        <div class="services-grid">
-            <div class="service-card">
-                <div class="service-icon">🎾</div>
-                <h3>Lớp Học Cơ Bản</h3>
-                <p>Dành cho người mới bắt đầu, học các kỹ thuật cơ bản và luật chơi pickleball một cách dễ hiểu.</p>
-                <div class="service-price">500.000đ/tháng</div>
-            </div>
-            <div class="service-card featured">
-                <div class="featured-badge">Phổ Biến</div>
-                <div class="service-icon">🏆</div>
-                <h3>Lớp Nâng Cao</h3>
-                <p>Phát triển kỹ thuật chuyên sâu, chiến thuật thi đấu và chuẩn bị cho các giải đấu.</p>
-                <div class="service-price">800.000đ/tháng</div>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">👥</div>
-                <h3>Thuê Sân</h3>
-                <p>Thuê sân theo giờ cho cá nhân hoặc nhóm, với thiết bị đầy đủ và chất lượng cao.</p>
-                <div class="service-price">150.000đ/giờ</div>
-            </div>
-            <div class="service-card">
-                <div class="service-icon">🎯</div>
-                <h3>Huấn Luyện Cá Nhân</h3>
-                <p>Huấn luyện 1-1 với HLV chuyên nghiệp, tùy chỉnh theo nhu cầu và trình độ cá nhân.</p>
-                <div class="service-price">300.000đ/buổi</div>
-            </div>
+        <div class="quick-links-grid">
+            <a href="gioi-thieu.html" class="quick-link-card">
+                <div class="quick-link-icon">ℹ️</div>
+                <h3>Giới Thiệu</h3>
+                <p>Tìm hiểu về PickNews.vn và đội ngũ biên tập</p>
+            </a>
+            <a href="tin-tuc.html" class="quick-link-card">
+                <div class="quick-link-icon">📰</div>
+                <h3>Tin Tức</h3>
+                <p>Cập nhật tin tức mới nhất về pickleball</p>
+            </a>
+            <a href="giai-dau.html" class="quick-link-card">
+                <div class="quick-link-icon">🏆</div>
+                <h3>Giải Đấu</h3>
+                <p>Theo dõi các giải đấu trong và ngoài nước</p>
+            </a>
+            <a href="san-pham.html" class="quick-link-card">
+                <div class="quick-link-icon">🛍️</div>
+                <h3>Sản Phẩm</h3>
+                <p>Review và tư vấn thiết bị pickleball</p>
+            </a>
         </div>
     </section>
 
-    <section id="courts" class="courts">
-        <div class="section-header">
-            <h2>Sân Thi Đấu</h2>
-            <p>Cơ sở vật chất hiện đại, tiêu chuẩn quốc tế</p>
-        </div>
-        <div class="courts-grid">
-            <div class="court-card">
-                <img src="https://images.pexels.com/photos/8007399/pexels-photo-8007399.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Indoor court">
-                <div class="court-info">
-                    <h3>Sân Trong Nhà</h3>
-                    <p>4 sân tiêu chuẩn với hệ thống điều hòa và ánh sáng LED chuyên dụng</p>
-                </div>
-            </div>
-            <div class="court-card">
-                <img src="https://images.pexels.com/photos/8007400/pexels-photo-8007400.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Outdoor court">
-                <div class="court-info">
-                    <h3>Sân Ngoài Trời</h3>
-                    <p>4 sân ngoài trời với mặt sân chuyên dụng và hệ thống thoát nước tốt</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="events" class="events">
-        <div class="section-header">
-            <h2>Sự Kiện & Giải Đấu</h2>
-            <p>Tham gia các hoạt động thú vị cùng cộng đồng</p>
-        </div>
-        <div class="events-grid">
-            <div class="event-card">
-                <div class="event-date">
-                    <span class="day">15</span>
-                    <span class="month">Tháng 12</span>
-                </div>
-                <div class="event-info">
-                    <h3>Giải Đấu Mùa Đông 2024</h3>
-                    <p>Giải đấu lớn nhất trong năm với tổng giải thưởng 50 triệu đồng</p>
-                    <span class="event-location">📍 PickerBall New Center</span>
-                </div>
-            </div>
-            <div class="event-card">
-                <div class="event-date">
-                    <span class="day">22</span>
-                    <span class="month">Tháng 12</span>
-                </div>
-                <div class="event-info">
-                    <h3>Workshop Kỹ Thuật Nâng Cao</h3>
-                    <p>Học hỏi từ các chuyên gia hàng đầu về kỹ thuật và chiến thuật</p>
-                    <span class="event-location">📍 Sân Trong Nhà</span>
-                </div>
-            </div>
-            <div class="event-card">
-                <div class="event-date">
-                    <span class="day">30</span>
-                    <span class="month">Tháng 12</span>
-                </div>
-                <div class="event-info">
-                    <h3>Gala Cuối Năm</h3>
-                    <p>Tiệc tất niên và trao giải cho các thành viên xuất sắc</p>
-                    <span class="event-location">📍 Hội Trường CLB</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials">
-        <div class="section-header">
-            <h2>Cảm Nhận Thành Viên</h2>
-            <p>Những chia sẻ từ cộng đồng PickerBall New</p>
-        </div>
-        <div class="testimonials-grid">
-            <div class="testimonial-card">
-                <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Nguyễn Thị Lan">
-                <p>"Tôi đã tham gia CLB được 2 năm và cảm thấy rất hài lòng. Các HLV rất tận tâm và cơ sở vật chất tuyệt vời."</p>
-                <div class="testimonial-author">
-                    <h4>Nguyễn Thị Lan</h4>
-                    <span>Thành viên từ 2022</span>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Trần Minh Hoàng">
-                <p>"Pickleball đã thay đổi cuộc sống của tôi. Không chỉ cải thiện sức khỏe mà còn kết bạn với nhiều người."</p>
-                <div class="testimonial-author">
-                    <h4>Trần Minh Hoàng</h4>
-                    <span>Thành viên VIP</span>
-                </div>
-            </div>
-            <div class="testimonial-card">
-                <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" alt="Lê Thị Mai">
-                <p>"Môi trường thân thiện, chuyên nghiệp. Con tôi rất thích học pickleball ở đây và tiến bộ rất nhanh."</p>
-                <div class="testimonial-author">
-                    <h4>Lê Thị Mai</h4>
-                    <span>Phụ huynh học viên</span>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer id="contact" class="footer">
+    <footer class="footer">
         <div class="footer-content">
             <div class="footer-brand">
                 <div class="logo">
                     <span class="logo-icon">🏓</span>
-                    <span class="logo-text">PickerBall New</span>
+                    <span class="logo-text">PickNews.vn</span>
                 </div>
-                <p>Câu lạc bộ pickleball hàng đầu Việt Nam, mang đến trải nghiệm thể thao tuyệt vời cho mọi lứa tuổi.</p>
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <span class="contact-icon">📍</span>
-                        <span>470 Trần Đại Nghĩa, Ngũ Hành Sơn, Đà Nẵng</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">📞</span>
-                        <span>0326365508</span>
-                    </div>
-                    <div class="contact-item">
-                        <span class="contact-icon">✉️</span>
-                        <span>manhdinh150605@gmail.com</span>
-                    </div>
-                </div>
+                <p>Nguồn tin tức pickleball hàng đầu Việt Nam, cung cấp thông tin chính xác và kịp thời về thế giới pickleball.</p>
                 <div class="social-links">
                     <a href="#" aria-label="Facebook">📘</a>
                     <a href="#" aria-label="Instagram">📷</a>
@@ -236,44 +167,45 @@
             </div>
             <div class="footer-links">
                 <div class="link-group">
-                    <h4>Dịch Vụ</h4>
+                    <h4>Nội Dung</h4>
                     <ul>
-                        <li><a href="#services">Lớp Học</a></li>
-                        <li><a href="#services">Thuê Sân</a></li>
-                        <li><a href="#services">Huấn Luyện</a></li>
-                        <li><a href="#events">Giải Đấu</a></li>
+                        <li><a href="tin-tuc.html">Tin Tức</a></li>
+                        <li><a href="giai-dau.html">Giải Đấu</a></li>
+                        <li><a href="san-pham.html">Sản Phẩm</a></li>
+                        <li><a href="#">Kỹ Thuật</a></li>
                     </ul>
                 </div>
                 <div class="link-group">
-                    <h4>Thông Tin</h4>
+                    <h4>Về Chúng Tôi</h4>
                     <ul>
-                        <li><a href="#about">Giới Thiệu</a></li>
-                        <li><a href="#courts">Cơ Sở Vật Chất</a></li>
-                        <li><a href="#events">Sự Kiện</a></li>
-                        <li><a href="#">Tin Tức</a></li>
+                        <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+                        <li><a href="#">Đội Ngũ</a></li>
+                        <li><a href="lien-he.html">Liên Hệ</a></li>
+                        <li><a href="#">Tuyển Dụng</a></li>
                     </ul>
                 </div>
                 <div class="link-group">
                     <h4>Hỗ Trợ</h4>
                     <ul>
-                        <li><a href="#">Hướng Dẫn</a></li>
                         <li><a href="#">FAQ</a></li>
-                        <li><a href="#contact">Liên Hệ</a></li>
+                        <li><a href="#">Hướng Dẫn</a></li>
                         <li><a href="#">Chính Sách</a></li>
+                        <li><a href="#">Điều Khoản</a></li>
                     </ul>
                 </div>
                 <div class="link-group">
-                    <h4>Giờ Hoạt Động</h4>
+                    <h4>Liên Hệ</h4>
                     <ul>
-                        <li>Thứ 2 - Thứ 6: 6:00 - 22:00</li>
-                        <li>Thứ 7 - Chủ Nhật: 5:30 - 23:00</li>
-                        <li>Lễ Tết: 7:00 - 20:00</li>
+                        <li>📧 info@picknews.vn</li>
+                        <li>📞 0123 456 789</li>
+                        <li>📍 123 Đường ABC</li>
+                        <li>🕒 24/7 Online</li>
                     </ul>
                 </div>
             </div>
         </div>
         <div class="footer-bottom">
-            <p>&copy; 2025 PickerBall New.</p>
+            <p>&copy; 20255 PickNews.vn. Tất cả quyền được bảo lưu.</p>
         </div>
     </footer>
 

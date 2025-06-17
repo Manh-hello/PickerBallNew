@@ -1,0 +1,412 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giải Đấu - PickNews.vn</title>
+    <link rel="stylesheet" href="./asset/css/reset.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <span class="logo-icon">🏓</span>
+                <span class="logo-text">PickNews.vn</span>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Trang Chủ</a></li>
+                <li><a href="gioi-thieu.html" class="nav-link">Giới Thiệu</a></li>
+                <li><a href="tin-tuc.html" class="nav-link">Tin Tức</a></li>
+                <li><a href="giai-dau.html" class="nav-link active">Giải Đấu</a></li>
+                <li><a href="san-pham.html" class="nav-link">Sản Phẩm</a></li>
+                <li><a href="lien-he.html" class="nav-link">Liên Hệ</a></li>
+                <!-- <li><a href="lien-he.html" class="nav-link cta-button">Liên Hệ</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="page-header-content">
+            <h1>Giải Đấu</h1>
+            <p>Theo dõi các giải đấu pickleball hấp dẫn trong và ngoài nước</p>
+        </div>
+    </section>
+
+    <!-- Tournament Tabs -->
+    <section class="tournament-tabs-section">
+        <div class="tournament-tabs">
+            <button class="tab-btn active" data-tab="upcoming">Sắp Diễn Ra</button>
+            <button class="tab-btn" data-tab="ongoing">Đang Diễn Ra</button>
+            <button class="tab-btn" data-tab="completed">Đã Kết Thúc</button>
+            <button class="tab-btn" data-tab="international">Quốc Tế</button>
+        </div>
+    </section>
+
+    <!-- Tournament Content -->
+    <section class="tournament-content-section">
+        <div class="tournament-content">
+            <!-- Upcoming Tournaments -->
+            <div class="tab-content active" id="upcoming">
+                <div class="tournament-grid">
+                    <div class="tournament-card upcoming">
+                        <div class="tournament-image">
+                            <img src="https://images.pexels.com/photos/8007401/pexels-photo-8007401.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Giải đấu">
+                        </div>
+                        <div class="tournament-date">
+                            <span class="day">20</span>
+                            <span class="month">Tháng 12</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="tournament-info">
+                            <h3>Giải Pickleball Mở Rộng Đà Nẵng 2024</h3>
+                            <p>Giải đấu quy tụ các tay vợt hàng đầu miền Trung với nhiều hạng mục thi đấu hấp dẫn.</p>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Trung tâm Thể thao Đà Nẵng</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">💰</span>
+                                    <span>Tổng giải thưởng: 100 triệu VNĐ</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">👥</span>
+                                    <span>200 vận động viên tham gia</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🏆</span>
+                                    <span>5 hạng mục thi đấu</span>
+                                </div>
+                            </div>
+                            <div class="tournament-actions">
+                                <a href="#" class="tournament-btn primary">Đăng Ký Tham Gia</a>
+                                <a href="#" class="tournament-btn secondary">Xem Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tournament-card upcoming">
+                        <div class="tournament-image">
+                            <img src="https://images.pexels.com/photos/8007398/pexels-photo-8007398.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Giải đấu">
+                        </div>
+                        <div class="tournament-date">
+                            <span class="day">25</span>
+                            <span class="month">Tháng 12</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="tournament-info">
+                            <h3>Cup Pickleball Trẻ Toàn Quốc</h3>
+                            <p>Giải đấu dành riêng cho lứa tuổi trẻ U18 và U21, tạo sân chơi bổ ích cho thế hệ tương lai.</p>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Cung thể thao Rạch Miễu, Hà Nội</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">💰</span>
+                                    <span>Tổng giải thưởng: 50 triệu VNĐ</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">👥</span>
+                                    <span>150 vận động viên trẻ</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🏆</span>
+                                    <span>4 hạng mục theo độ tuổi</span>
+                                </div>
+                            </div>
+                            <div class="tournament-actions">
+                                <a href="#" class="tournament-btn primary">Đăng Ký Tham Gia</a>
+                                <a href="#" class="tournament-btn secondary">Xem Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tournament-card upcoming">
+                        <div class="tournament-image">
+                            <img src="https://images.pexels.com/photos/8007399/pexels-photo-8007399.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Giải đấu">
+                        </div>
+                        <div class="tournament-date">
+                            <span class="day">30</span>
+                            <span class="month">Tháng 12</span>
+                            <span class="year">2024</span>
+                        </div>
+                        <div class="tournament-info">
+                            <h3>Giải Pickleball Doanh Nhân TP.HCM</h3>
+                            <p>Giải đấu dành cho cộng đồng doanh nhân yêu thích pickleball, kết hợp thể thao và networking.</p>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>CLB Pickleball Saigon</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">💰</span>
+                                    <span>Tổng giải thưởng: 80 triệu VNĐ</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">👥</span>
+                                    <span>100 doanh nhân tham gia</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🏆</span>
+                                    <span>3 hạng mục thi đấu</span>
+                                </div>
+                            </div>
+                            <div class="tournament-actions">
+                                <a href="#" class="tournament-btn primary">Đăng Ký Tham Gia</a>
+                                <a href="#" class="tournament-btn secondary">Xem Chi Tiết</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Ongoing Tournaments -->
+            <div class="tab-content" id="ongoing">
+                <div class="tournament-grid">
+                    <div class="tournament-card ongoing">
+                        <div class="tournament-image">
+                            <img src="https://images.pexels.com/photos/8007400/pexels-photo-8007400.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Giải đấu đang diễn ra">
+                        </div>
+                        <div class="tournament-status">
+                            <span class="live-indicator">🔴 ĐANG LIVE</span>
+                        </div>
+                        <div class="tournament-info">
+                            <h3>Giải Vô Địch Pickleball Việt Nam 2024</h3>
+                            <p>Giải đấu lớn nhất năm đang diễn ra vòng tứ kết với những trận đấu kịch tính.</p>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Nhà thi đấu Phú Thọ, TP.HCM</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🏆</span>
+                                    <span>Đang ở vòng: Tứ Kết</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">📺</span>
+                                    <span>Trực tiếp trên YouTube</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">👁️</span>
+                                    <span>5,200 người đang xem</span>
+                                </div>
+                            </div>
+                            <div class="tournament-actions">
+                                <a href="#" class="tournament-btn live">Xem Trực Tiếp</a>
+                                <a href="#" class="tournament-btn secondary">Lịch Thi Đấu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Completed Tournaments -->
+            <div class="tab-content" id="completed">
+                <div class="tournament-grid">
+                    <div class="tournament-card completed">
+                        <div class="tournament-image">
+                            <img src="https://images.pexels.com/photos/8007401/pexels-photo-8007401.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Giải đấu đã kết thúc">
+                        </div>
+                        <div class="tournament-info">
+                            <h3>Giải Pickleball Mở Rộng Cần Thơ 2024</h3>
+                            <p>Giải đấu đã kết thúc thành công với nhiều trận đấu hấp dẫn và những kỷ lục mới.</p>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Trung tâm Thể thao Cần Thơ</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🏆</span>
+                                    <span>Vô địch: Nguyễn Văn A</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">📅</span>
+                                    <span>Kết thúc: 10/12/2024</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">👥</span>
+                                    <span>180 VĐV tham gia</span>
+                                </div>
+                            </div>
+                            <div class="tournament-actions">
+                                <a href="#" class="tournament-btn secondary">Xem Kết Quả</a>
+                                <a href="#" class="tournament-btn secondary">Highlights</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tournament-card completed">
+                        <div class="tournament-image">
+                            <img src="https://images.pexels.com/photos/8007398/pexels-photo-8007398.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Giải đấu đã kết thúc">
+                        </div>
+                        <div class="tournament-info">
+                            <h3>Cup Pickleball Hà Nội Mở Rộng</h3>
+                            <p>Giải đấu quy tụ 250 vận động viên từ khắp miền Bắc với nhiều hạng mục thi đấu.</p>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Cung thể thao Rạch Miễu</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🏆</span>
+                                    <span>Vô địch: Trần Thị B</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">📅</span>
+                                    <span>Kết thúc: 05/12/2024</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">👥</span>
+                                    <span>250 VĐV tham gia</span>
+                                </div>
+                            </div>
+                            <div class="tournament-actions">
+                                <a href="#" class="tournament-btn secondary">Xem Kết Quả</a>
+                                <a href="#" class="tournament-btn secondary">Highlights</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- International Tournaments -->
+            <div class="tab-content" id="international">
+                <div class="tournament-grid">
+                    <div class="tournament-card international">
+                        <div class="tournament-image">
+                            <img src="https://images.pexels.com/photos/8007399/pexels-photo-8007399.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Giải đấu quốc tế">
+                        </div>
+                        <div class="tournament-info">
+                            <h3>US Open Pickleball Championships 2025</h3>
+                            <p>Giải đấu pickleball lớn nhất thế giới sẽ diễn ra tại Florida với sự tham gia của các tay vợt hàng đầu.</p>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Naples, Florida, USA</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">💰</span>
+                                    <span>Giải thưởng: $2.5 triệu USD</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">📅</span>
+                                    <span>12-19/04/2025</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🌍</span>
+                                    <span>2000+ VĐV quốc tế</span>
+                                </div>
+                            </div>
+                            <div class="tournament-actions">
+                                <a href="#" class="tournament-btn secondary">Thông Tin Chi Tiết</a>
+                                <a href="#" class="tournament-btn secondary">Đăng Ký Theo Dõi</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tournament-card international">
+                        <div class="tournament-image">
+                            <img src="https://images.pexels.com/photos/8007400/pexels-photo-8007400.jpeg?auto=compress&cs=tinysrgb&w=600&h=400&dpr=2" alt="Giải đấu quốc tế">
+                        </div>
+                        <div class="tournament-info">
+                            <h3>Asian Pickleball Championships 2025</h3>
+                            <p>Giải vô địch pickleball châu Á lần đầu tiên tổ chức tại Singapore, Việt Nam sẽ cử đội tuyển tham dự.</p>
+                            <div class="tournament-details">
+                                <div class="detail-item">
+                                    <span class="detail-icon">📍</span>
+                                    <span>Singapore Sports Centre</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">💰</span>
+                                    <span>Giải thưởng: $500,000 USD</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">📅</span>
+                                    <span>15-22/06/2025</span>
+                                </div>
+                                <div class="detail-item">
+                                    <span class="detail-icon">🌏</span>
+                                    <span>15 quốc gia tham gia</span>
+                                </div>
+                            </div>
+                            <div class="tournament-actions">
+                                <a href="#" class="tournament-btn secondary">Thông Tin Chi Tiết</a>
+                                <a href="#" class="tournament-btn secondary">Đăng Ký Theo Dõi</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">🏓</span>
+                    <span class="logo-text">PickNews.vn</span>
+                </div>
+                <p>Nguồn tin tức pickleball hàng đầu Việt Nam, cung cấp thông tin chính xác và kịp thời về thế giới pickleball.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="YouTube">📺</a>
+                    <a href="#" aria-label="TikTok">🎵</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Nội Dung</h4>
+                    <ul>
+                        <li><a href="tin-tuc.html">Tin Tức</a></li>
+                        <li><a href="giai-dau.html">Giải Đấu</a></li>
+                        <li><a href="san-pham.html">Sản Phẩm</a></li>
+                        <li><a href="#">Kỹ Thuật</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Về Chúng Tôi</h4>
+                    <ul>
+                        <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+                        <li><a href="#">Đội Ngũ</a></li>
+                        <li><a href="lien-he.html">Liên Hệ</a></li>
+                        <li><a href="#">Tuyển Dụng</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Hỗ Trợ</h4>
+                    <ul>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Hướng Dẫn</a></li>
+                        <li><a href="#">Chính Sách</a></li>
+                        <li><a href="#">Điều Khoản</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Liên Hệ</h4>
+                    <ul>
+                        <li>📧 info@picknews.vn</li>
+                        <li>📞 0123 456 789</li>
+                        <li>📍 123 Đường ABC</li>
+                        <li>🕒 24/7 Online</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PickNews.vn. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="./asset/js/main.js"></script>
+</body>
+</html>
