@@ -1843,6 +1843,13 @@ body {
     .hero-content h1 {
         font-size: 2.5rem;
     }
+    .cta-buttons {
+        display: flex;
+        gap: 1rem;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
 
     .section-header p {
         font-size: 2rem;
