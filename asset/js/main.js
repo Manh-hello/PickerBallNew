@@ -150,15 +150,15 @@ document.addEventListener('DOMContentLoaded', () => {
             const data = Object.fromEntries(formData);
             
             // Simple validation
-            if (!data.name || !data.email || !data.subject || !data.message) {
-                alert('Vui lòng điền đầy đủ thông tin bắt buộc.');
-                return;
-            }
+            // if (!data.name || !data.email || !data.subject || !data.message) {
+            //     alert('Vui lòng điền đầy đủ thông tin bắt buộc.');
+            //     return;
+            // }
             
-            if (!data.privacy) {
-                alert('Vui lòng đồng ý với chính sách bảo mật và điều khoản sử dụng.');
-                return;
-            }
+            // if (!data.privacy) {
+            //     alert('Vui lòng đồng ý với chính sách bảo mật và điều khoản sử dụng.');
+            //     return;
+            // }
             
             // Simulate form submission
             const submitBtn = contactForm.querySelector('.submit-btn');

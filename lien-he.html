@@ -123,7 +123,7 @@
                 </div>
             </div>
 
-            <div class="contact-form-section">
+            <!-- <div class="contact-form-section">
                 <h2>Gửi Tin Nhắn</h2>
                 <form class="contact-form" id="contactForm">
                     <div class="form-group">
@@ -175,6 +175,66 @@
                             Tôi đồng ý với <a href="#">Chính sách bảo mật</a> và <a href="#">Điều khoản sử dụng</a>
                         </label>
                     </div>
+
+                    <button type="submit" class="submit-btn">
+                        <span>Gửi Tin Nhắn</span>
+                        <span class="btn-icon">📤</span>
+                    </button>
+                </form>
+            </div> -->
+            <div class="contact-form-section">
+                <h2>Gửi Tin Nhắn</h2>
+                <form class="contact-form" id="contactForm" novalidate>
+                    <div class="form-group">
+                        <label for="name">Họ và Tên *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Số Điện Thoại</label>
+                            <input type="tel" id="phone" name="phone">
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="subject">Chủ Đề *</label>
+                        <select id="subject" name="subject" required>
+                            <option value="">Chọn chủ đề</option>
+                            <option value="news">Góp ý về tin tức</option>
+                            <option value="tournament">Thông tin giải đấu</option>
+                            <option value="product">Review sản phẩm</option>
+                            <option value="partnership">Hợp tác</option>
+                            <option value="advertising">Quảng cáo</option>
+                            <option value="other">Khác</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Nội Dung *</label>
+                        <textarea id="message" name="message" rows="6" placeholder="Nhập nội dung tin nhắn của bạn..." required></textarea>
+                    </div>
+
+                    <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="newsletter" name="newsletter">
+                            <span class="checkmark"></span>
+                            Đăng ký nhận bản tin hàng tuần về pickleball
+                        </label>
+                    </div>
+
+                    <!-- ✅ Không dùng required ở checkbox, xử lý JS -->
+                    <!-- <div class="form-group checkbox-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" id="privacy" name="privacy">
+                            <span class="checkmark"></span>
+                            Tôi đồng ý với <a href="#">Chính sách bảo mật</a> và <a href="#">Điều khoản sử dụng</a>
+                        </label>
+                    </div> -->
 
                     <button type="submit" class="submit-btn">
                         <span>Gửi Tin Nhắn</span>
@@ -288,5 +348,8 @@
     </footer>
 
     <script src="./asset/js/main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4.1.0/dist/email.min.js"></script>
+    <script src="./asset/js/sendEmail.js"></script>
+
 </body>
 </html>

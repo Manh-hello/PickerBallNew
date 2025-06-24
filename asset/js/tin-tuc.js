@@ -104,7 +104,7 @@ function renderNewsList(page = 1) {
 
 function scrollToSection() {
     const section = document.querySelector('.news-list-section');
-    const offset = 100;
+    const offset = 1000;
     const top = section.getBoundingClientRect().top + window.pageYOffset - offset;
     window.scrollTo({ top, behavior: 'smooth' });
 }
