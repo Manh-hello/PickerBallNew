@@ -10,8 +10,8 @@ document.getElementById("contactForm").addEventListener("submit", function (e) {
     emailjs.send("service_hzne0fq", "template_m5kiuhs", {
         name: document.getElementById("name").value,
         email: document.getElementById("email").value,
-        phone: document.getElementById("phone").value,         // ✅ thêm dòng này
-        subject: document.getElementById("subject").value,     // ✅ sửa lại thành subject
+        phone: document.getElementById("phone").value,     
+        subject: document.getElementById("subject").value,   
         message: document.getElementById("message").value
     }).then(
         function (response) {

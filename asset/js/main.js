@@ -166,12 +166,12 @@ document.addEventListener('DOMContentLoaded', () => {
             submitBtn.innerHTML = '<span>Đang gửi...</span>';
             submitBtn.disabled = true;
             
-            setTimeout(() => {
-                alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi trong vòng 24 giờ.');
-                contactForm.reset();
-                submitBtn.innerHTML = originalText;
-                submitBtn.disabled = false;
-            }, 2000);
+            // setTimeout(() => {
+            //     alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi trong vòng 24 giờ.');
+            //     contactForm.reset();
+            //     submitBtn.innerHTML = originalText;
+            //     submitBtn.disabled = false;
+            // }, 2000);
         });
     }
 

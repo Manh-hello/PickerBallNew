@@ -133,7 +133,7 @@ document.addEventListener("DOMContentLoaded", () => {
                                     ${item.date ? `<div class="detail-item"><span class="detail-icon">📅</span><span>${item.date}</span></div>` : ""}
                                 </div>
                                 <div class="tournament-actions">
-                                    <a href="#" class="tournament-btn primary">Xem Chi Tiết</a>
+                                    <a href="chi-tiet-giai-dau.html?id=${tournamentData.indexOf(item)}" class="tournament-btn primary">Xem Chi Tiết</a>
                                 </div>
                             </div>
                         </div>

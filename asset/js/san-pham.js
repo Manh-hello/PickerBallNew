@@ -91,7 +91,7 @@ document.addEventListener("DOMContentLoaded", () => {
             ${item.unit ? `<span class="unit">${item.unit}</span>` : ""}
           </div>
           <div class="product-actions">
-            <a href="#" class="product-btn primary">Xem Chi Tiết</a>
+            <a href="chi-tiet-san-pham.html?id=${productData.indexOf(item)}" class="product-btn primary">Xem Chi Tiết</a>
             <button class="wishlist-btn">❤️</button>
           </div>
         </div>

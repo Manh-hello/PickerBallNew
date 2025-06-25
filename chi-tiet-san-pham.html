@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selkirk AMPED Epic - Vợt Pickleball Cao Cấp 2024 - PickNews.vn</title>
+    <link rel="stylesheet" href="./asset/css/reset.css">
+    <link rel="stylesheet" href="./asset/css/style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="nav-content">
+            <div class="logo">
+                <span class="logo-icon">🏓</span>
+                <span class="logo-text">PickNews.vn</span>
+            </div>
+            <button class="mobile-menu-btn" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Trang Chủ</a></li>
+                <li><a href="gioi-thieu.html" class="nav-link">Giới Thiệu</a></li>
+                <li><a href="tin-tuc.html" class="nav-link">Tin Tức</a></li>
+                <li><a href="giai-dau.html" class="nav-link">Giải Đấu</a></li>
+                <li><a href="san-pham.html" class="nav-link active">Sản Phẩm</a></li>
+                <li><a href="lien-he.html" class="nav-link">Liên Hệ</a></li>
+                <!-- <li><a href="lien-he.html" class="nav-link cta-button">Liên Hệ</a></li> -->
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Breadcrumb -->
+    <section class="breadcrumb">
+        <div class="breadcrumb-content">
+            <a href="index.html">Trang Chủ</a>
+            <span>›</span>
+            <a href="san-pham.html">Sản Phẩm</a>
+            <span>›</span>
+            <span>Selkirk AMPED Epic</span>
+        </div>
+    </section>
+
+    <!-- Product Detail -->
+    <section class="product-detail">
+        <div class="product-detail-container">
+            <div class="product-gallery">
+                <div class="main-image">
+                    <img id="mainProductImage" src="https://images.pexels.com/photos/8007401/pexels-photo-8007401.jpeg?auto=compress&cs=tinysrgb&w=800&h=600&dpr=2" alt="Selkirk AMPED Epic">
+                    <div class="product-badges">
+                        <span class="badge featured">Sản Phẩm Nổi Bật</span>
+                        <span class="badge bestseller">Bán Chạy</span>
+                    </div>
+                </div>
+                <div class="thumbnail-images">
+                    <img src="https://images.pexels.com/photos/8007401/pexels-photo-8007401.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=2" alt="Góc 1" class="thumbnail active" onclick="changeMainImage(this)">
+                    <img src="https://images.pexels.com/photos/8007398/pexels-photo-8007398.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=2" alt="Góc 2" class="thumbnail" onclick="changeMainImage(this)">
+                    <img src="https://images.pexels.com/photos/8007399/pexels-photo-8007399.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=2" alt="Góc 3" class="thumbnail" onclick="changeMainImage(this)">
+                    <img src="https://images.pexels.com/photos/8007400/pexels-photo-8007400.jpeg?auto=compress&cs=tinysrgb&w=200&h=150&dpr=2" alt="Góc 4" class="thumbnail" onclick="changeMainImage(this)">
+                </div>
+            </div>
+
+            <div class="product-info">
+                <div class="product-header">
+                    <span class="product-brand">Selkirk</span>
+                    <h1>AMPED Epic - Vợt Pickleball Cao Cấp 2024</h1>
+                    <div class="product-rating">
+                        <div class="stars">⭐⭐⭐⭐⭐</div>
+                        <span class="rating-score">4.9/5</span>
+                        <span class="rating-count">(127 đánh giá)</span>
+                        <a href="#reviews" class="view-reviews">Xem đánh giá</a>
+                    </div>
+                </div>
+
+                <div class="product-price">
+                    <span class="current-price">4.500.000đ</span>
+                    <span class="original-price">5.200.000đ</span>
+                    <span class="discount-percent">-13%</span>
+                    <div class="price-note">
+                        <span class="save-amount">Tiết kiệm: 700.000đ</span>
+                        <span class="tax-note">Đã bao gồm VAT</span>
+                    </div>
+                </div>
+
+                <div class="product-description">
+                    <p>Vợt pickleball hàng đầu với công nghệ FiberFlex và QuadCarbon Face, mang lại sức mạnh và độ chính xác tuyệt vời. Được các tay vợt chuyên nghiệp tin dùng trong các giải đấu lớn.</p>
+                </div>
+
+                <div class="product-options">
+                    <div class="option-group">
+                        <label>Trọng lượng:</label>
+                        <div class="option-buttons">
+                            <button class="option-btn active" data-option="weight" data-value="7.8oz">7.8 oz</button>
+                            <button class="option-btn" data-option="weight" data-value="8.0oz">8.0 oz</button>
+                            <button class="option-btn" data-option="weight" data-value="8.2oz">8.2 oz</button>
+                        </div>
+                    </div>
+
+                    <div class="option-group">
+                        <label>Grip Size:</label>
+                        <div class="option-buttons">
+                            <button class="option-btn" data-option="grip" data-value="4.0">4.0"</button>
+                            <button class="option-btn active" data-option="grip" data-value="4.25">4.25"</button>
+                            <button class="option-btn" data-option="grip" data-value="4.5">4.5"</button>
+                        </div>
+                    </div>
+
+                    <div class="option-group">
+                        <label>Màu sắc:</label>
+                        <div class="color-options">
+                            <button class="color-btn active" data-color="blue" style="background: #4a90e2;" title="Xanh dương"></button>
+                            <button class="color-btn" data-color="red" style="background: #e74c3c;" title="Đỏ"></button>
+                            <button class="color-btn" data-color="black" style="background: #2c3e50;" title="Đen"></button>
+                            <button class="color-btn" data-color="green" style="background: #27ae60;" title="Xanh lá"></button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="product-quantity">
+                    <label>Số lượng:</label>
+                    <div class="quantity-controls">
+                        <button class="qty-btn minus" onclick="changeQuantity(-1)">-</button>
+                        <input type="number" id="quantity" value="1" min="1" max="10">
+                        <button class="qty-btn plus" onclick="changeQuantity(1)">+</button>
+                    </div>
+                    <!-- <span class="stock-status">✅ Còn 15 sản phẩm</span> -->
+                </div>
+
+                <div class="product-actions">
+                    <!-- <button class="action-btn primary add-to-cart">
+                        <span>🛒 Thêm Vào Giỏ</span>
+                    </button> -->
+                    <button class="action-btn secondary buy-now">
+                        <span>⚡ Mua Ngay</span>
+                    </button>
+                    <!-- <button class="action-btn wishlist" onclick="toggleWishlist(this)">
+                        <span>❤️ Yêu Thích</span>
+                    </button> -->
+                </div>
+
+                <div class="product-features">
+                    <h4>Đặc điểm nổi bật:</h4>
+                    <ul>
+                        <li>✓ Công nghệ QuadCarbon Face tăng độ bền và kiểm soát</li>
+                        <li>✓ FiberFlex Core mang lại cảm giác mềm mại</li>
+                        <li>✓ Trọng lượng cân bằng hoàn hảo</li>
+                        <li>✓ Grip chống trượt cao cấp</li>
+                        <li>✓ Bảo hành chính hãng 1 năm</li>
+                    </ul>
+                </div>
+
+                <div class="shipping-info">
+                    <div class="shipping-item">
+                        <span class="shipping-icon">🚚</span>
+                        <div>
+                            <strong>Miễn phí vận chuyển</strong>
+                            <span>Đơn hàng từ 2.000.000đ</span>
+                        </div>
+                    </div>
+                    <div class="shipping-item">
+                        <span class="shipping-icon">📦</span>
+                        <div>
+                            <strong>Giao hàng nhanh</strong>
+                            <span>1-2 ngày trong nội thành</span>
+                        </div>
+                    </div>
+                    <div class="shipping-item">
+                        <span class="shipping-icon">🔄</span>
+                        <div>
+                            <strong>Đổi trả dễ dàng</strong>
+                            <span>30 ngày đổi trả miễn phí</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Product Tabs -->
+        <!-- <div class="product-tabs">
+            <div class="tab-buttons">
+                <button class="tab-btn active" data-tab="specifications">Thông Số Kỹ Thuật</button>
+                <button class="tab-btn" data-tab="reviews">Đánh Giá (127)</button>
+                <button class="tab-btn" data-tab="comparison">So Sánh</button>
+                <button class="tab-btn" data-tab="qa">Hỏi & Đáp</button>
+            </div>
+
+            <div class="tab-content">
+                Specifications Tab
+                <div class="tab-panel active" id="specifications">
+                    <div class="specifications-content">
+                        <h3>Thông Số Kỹ Thuật Chi Tiết</h3>
+                        
+                        <div class="spec-grid">
+                            <div class="spec-category">
+                                <h4>Thông Số Cơ Bản</h4>
+                                <div class="spec-table">
+                                    <div class="spec-row">
+                                        <span class="spec-label">Thương hiệu</span>
+                                        <span class="spec-value">Selkirk</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Model</span>
+                                        <span class="spec-value">AMPED Epic</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Năm sản xuất</span>
+                                        <span class="spec-value">2024</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Trọng lượng</span>
+                                        <span class="spec-value">7.8 - 8.2 oz</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Chiều dài</span>
+                                        <span class="spec-value">15.75 inch</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Chiều rộng</span>
+                                        <span class="spec-value">8.25 inch</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="spec-category">
+                                <h4>Công Nghệ & Vật Liệu</h4>
+                                <div class="spec-table">
+                                    <div class="spec-row">
+                                        <span class="spec-label">Mặt vợt</span>
+                                        <span class="spec-value">QuadCarbon Face</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Core</span>
+                                        <span class="spec-value">FiberFlex Polymer</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Độ dày core</span>
+                                        <span class="spec-value">16mm</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Grip</span>
+                                        <span class="spec-value">Cushion Grip</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Grip size</span>
+                                        <span class="spec-value">4.0" - 4.5"</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Edge Guard</span>
+                                        <span class="spec-value">Polypropylene</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="spec-category">
+                                <h4>Đặc Tính Chơi</h4>
+                                <div class="spec-table">
+                                    <div class="spec-row">
+                                        <span class="spec-label">Power Level</span>
+                                        <span class="spec-value">⭐⭐⭐⭐⭐ (5/5)</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Control</span>
+                                        <span class="spec-value">⭐⭐⭐⭐⭐ (5/5)</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Spin</span>
+                                        <span class="spec-value">⭐⭐⭐⭐⭐ (5/5)</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Touch</span>
+                                        <span class="spec-value">⭐⭐⭐⭐⭐ (5/5)</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Phù hợp</span>
+                                        <span class="spec-value">Trung cấp - Chuyên nghiệp</span>
+                                    </div>
+                                    <div class="spec-row">
+                                        <span class="spec-label">Kiểu chơi</span>
+                                        <span class="spec-value">All-around, Power</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="technology-section">
+                            <h4>Công Nghệ Đặc Biệt</h4>
+                            <div class="tech-features">
+                                <div class="tech-feature">
+                                    <h5>QuadCarbon Face</h5>
+                                    <p>Mặt vợt được làm từ 4 lớp carbon fiber, tăng độ bền và khả năng tạo spin, đồng thời duy trì cảm giác mềm mại khi chạm bóng.</p>
+                                </div>
+                                <div class="tech-feature">
+                                    <h5>FiberFlex Core</h5>
+                                    <p>Lõi polymer đặc biệt mang lại sự cân bằng hoàn hảo giữa power và control, tạo cảm giác chơi tuyệt vời.</p>
+                                </div>
+                                <div class="tech-feature">
+                                    <h5>Optimized Weight Distribution</h5>
+                                    <p>Phân bố trọng lượng được tối ưu hóa để tăng stability và giảm vibration khi đánh bóng.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                Reviews Tab
+                <div class="tab-panel" id="reviews">
+                    <div class="reviews-content">
+                        <div class="reviews-summary">
+                            <div class="rating-overview">
+                                <div class="overall-rating">
+                                    <span class="rating-number">4.9</span>
+                                    <div class="rating-stars">⭐⭐⭐⭐⭐</div>
+                                    <span class="rating-text">127 đánh giá</span>
+                                </div>
+                                <div class="rating-breakdown">
+                                    <div class="rating-bar">
+                                        <span>5⭐</span>
+                                        <div class="bar"><div class="fill" style="width: 85%"></div></div>
+                                        <span>108</span>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span>4⭐</span>
+                                        <div class="bar"><div class="fill" style="width: 12%"></div></div>
+                                        <span>15</span>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span>3⭐</span>
+                                        <div class="bar"><div class="fill" style="width: 2%"></div></div>
+                                        <span>3</span>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span>2⭐</span>
+                                        <div class="bar"><div class="fill" style="width: 1%"></div></div>
+                                        <span>1</span>
+                                    </div>
+                                    <div class="rating-bar">
+                                        <span>1⭐</span>
+                                        <div class="bar"><div class="fill" style="width: 0%"></div></div>
+                                        <span>0</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="reviews-list">
+                            <div class="review-item">
+                                <div class="review-header">
+                                    <div class="reviewer-info">
+                                        <img src="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&dpr=2" alt="Reviewer">
+                                        <div>
+                                            <span class="reviewer-name">Nguyễn Minh Tuấn</span>
+                                            <span class="reviewer-level">Verified Buyer • Advanced Player</span>
+                                        </div>
+                                    </div>
+                                    <div class="review-rating">
+                                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                                        <span class="review-date">10/12/2024</span>
+                                    </div>
+                                </div>
+                                <div class="review-content">
+                                    <h5>Vợt tuyệt vời cho người chơi trung cấp</h5>
+                                    <p>Đã sử dụng vợt này được 3 tháng và rất hài lòng. Cảm giác chơi rất tốt, power và control cân bằng. Đặc biệt là khả năng tạo spin rất ấn tượng. Grip cầm rất chắc tay, không bị trượt ngay cả khi đổ mồ hôi nhiều.</p>
+                                    <div class="review-pros-cons">
+                                        <div class="pros">
+                                            <strong>Ưu điểm:</strong>
+                                            <ul>
+                                                <li>Power và control tuyệt vời</li>
+                                                <li>Tạo spin dễ dàng</li>
+                                                <li>Grip chống trượt tốt</li>
+                                            </ul>
+                                        </div>
+                                        <div class="cons">
+                                            <strong>Nhược điểm:</strong>
+                                            <ul>
+                                                <li>Giá hơi cao</li>
+                                                <li>Hơi nặng cho người mới</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="review-helpful">
+                                        <span>Hữu ích?</span>
+                                        <button class="helpful-btn">👍 15</button>
+                                        <button class="helpful-btn">👎 1</button>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="review-item">
+                                <div class="review-header">
+                                    <div class="reviewer-info">
+                                        <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg?auto=compress&cs=tinysrgb&w=60&h=60&dpr=2" alt="Reviewer">
+                                        <div>
+                                            <span class="reviewer-name">Trần Thị Hương</span>
+                                            <span class="reviewer-level">Verified Buyer • Professional Player</span>
+                                        </div>
+                                    </div>
+                                    <div class="review-rating">
+                                        <span class="stars">⭐⭐⭐⭐⭐</span>
+                                        <span class="review-date">08/12/2024</span>
+                                    </div>
+                                </div>
+                                <div class="review-content">
+                                    <h5>Chất lượng cao cấp, đáng đồng tiền</h5>
+                                    <p>Là một người chơi chuyên nghiệp, tôi đã thử nhiều loại vợt khác nhau. Selkirk AMPED Epic thực sự ấn tượng với công nghệ QuadCarbon Face. Cảm giác khi đánh bóng rất chắc chắn và chính xác.</p>
+                                    <div class="review-helpful">
+                                        <span>Hữu ích?</span>
+                                        <button class="helpful-btn">👍 23</button>
+                                        <button class="helpful-btn">👎 0</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="write-review">
+                            <h4>Viết đánh giá của bạn</h4>
+                            <button class="write-review-btn">Viết Đánh Giá</button>
+                        </div>
+                    </div>
+                </div>
+
+                Comparison Tab
+                <div class="tab-panel" id="comparison">
+                    <div class="comparison-content">
+                        <h3>So Sánh Với Các Sản Phẩm Tương Tự</h3>
+                        
+                        <div class="comparison-table-container">
+                            <table class="comparison-table">
+                                <thead>
+                                    <tr>
+                                        <th>Đặc điểm</th>
+                                        <th class="current-product">Selkirk AMPED Epic</th>
+                                        <th>JOOLA Ben Johns Hyperion</th>
+                                        <th>Paddletek Bantam EX-L</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Giá</td>
+                                        <td class="current-product">4.500.000đ</td>
+                                        <td>3.800.000đ</td>
+                                        <td>3.200.000đ</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Trọng lượng</td>
+                                        <td class="current-product">8.0 oz</td>
+                                        <td>8.5 oz</td>
+                                        <td>7.8 oz</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Công nghệ mặt</td>
+                                        <td class="current-product">QuadCarbon Face</td>
+                                        <td>Carbon Friction Surface</td>
+                                        <td>FiberFlex Face</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Core</td>
+                                        <td class="current-product">FiberFlex Polymer</td>
+                                        <td>Reactive Polymer</td>
+                                        <td>PolyCore</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Power</td>
+                                        <td class="current-product">⭐⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐⭐</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Control</td>
+                                        <td class="current-product">⭐⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐⭐⭐</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Spin</td>
+                                        <td class="current-product">⭐⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐⭐⭐</td>
+                                        <td>⭐⭐⭐⭐</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Phù hợp</td>
+                                        <td class="current-product">Trung cấp - Chuyên nghiệp</td>
+                                        <td>Trung cấp - Cao cấp</td>
+                                        <td>Trung cấp</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+
+                Q&A Tab
+                <div class="tab-panel" id="qa">
+                    <div class="qa-content">
+                        <h3>Hỏi & Đáp</h3>
+                        
+                        <div class="ask-question">
+                            <h4>Có câu hỏi về sản phẩm?</h4>
+                            <button class="ask-btn">Đặt Câu Hỏi</button>
+                        </div>
+
+                        <div class="qa-list">
+                            <div class="qa-item">
+                                <div class="question">
+                                    <h5>Q: Vợt này có phù hợp cho người mới bắt đầu không?</h5>
+                                    <span class="question-date">12/12/2024</span>
+                                </div>
+                                <div class="answer">
+                                    <p><strong>A:</strong> Vợt Selkirk AMPED Epic phù hợp hơn cho người chơi trung cấp trở lên do có power khá cao. Người mới bắt đầu nên cân nhắc các dòng vợt có control tốt hơn như Selkirk AMPED S2 hoặc Paddletek Tempest Wave.</p>
+                                    <span class="answer-by">Trả lời bởi: Chuyên gia PickNews</span>
+                                </div>
+                            </div>
+
+                            <div class="qa-item">
+                                <div class="question">
+                                    <h5>Q: Bảo hành của vợt này như thế nào?</h5>
+                                    <span class="question-date">10/12/2024</span>
+                                </div>
+                                <div class="answer">
+                                    <p><strong>A:</strong> Vợt Selkirk AMPED Epic có bảo hành chính hãng 1 năm đối với lỗi sản xuất. Bảo hành không áp dụng cho hư hỏng do sử dụng không đúng cách hoặc va đập mạnh.</p>
+                                    <span class="answer-by">Trả lời bởi: Selkirk Vietnam</span>
+                                </div>
+                            </div>
+
+                            <div class="qa-item">
+                                <div class="question">
+                                    <h5>Q: Có thể đổi grip size sau khi mua không?</h5>
+                                    <span class="question-date">08/12/2024</span>
+                                </div>
+                                <div class="answer">
+                                    <p><strong>A:</strong> Có thể thay đổi grip size bằng cách thêm overgrip hoặc thay grip mới. Chúng tôi cung cấp dịch vụ thay grip miễn phí trong 30 ngày đầu sau khi mua.</p>
+                                    <span class="answer-by">Trả lời bởi: PickNews Store</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+
+        <!-- Related Products -->
+        <section class="related-products">
+            <h3>Sản Phẩm Liên Quan</h3>
+            <div class="related-grid">
+                <div class="related-product-card">
+                    <img src="https://images.pexels.com/photos/8007398/pexels-photo-8007398.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&dpr=2" alt="Sản phẩm liên quan">
+                    <div class="related-product-info">
+                        <h4>JOOLA Ben Johns Hyperion CFS 16</h4>
+                        <div class="related-price">
+                            <span class="price">3.800.000đ</span>
+                            <span class="original">4.200.000đ</span>
+                        </div>
+                        <div class="related-rating">⭐⭐⭐⭐⭐ (4.8/5)</div>
+                    </div>
+                </div>
+
+                <div class="related-product-card">
+                    <img src="https://images.pexels.com/photos/8007399/pexels-photo-8007399.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&dpr=2" alt="Sản phẩm liên quan">
+                    <div class="related-product-info">
+                        <h4>Paddletek Bantam EX-L Pro</h4>
+                        <div class="related-price">
+                            <span class="price">3.200.000đ</span>
+                        </div>
+                        <div class="related-rating">⭐⭐⭐⭐⭐ (4.7/5)</div>
+                    </div>
+                </div>
+
+                <div class="related-product-card">
+                    <img src="https://images.pexels.com/photos/8007400/pexels-photo-8007400.jpeg?auto=compress&cs=tinysrgb&w=300&h=200&dpr=2" alt="Sản phẩm liên quan">
+                    <div class="related-product-info">
+                        <h4>Selkirk AMPED S2</h4>
+                        <div class="related-price">
+                            <span class="price">2.800.000đ</span>
+                            <span class="original">3.200.000đ</span>
+                        </div>
+                        <div class="related-rating">⭐⭐⭐⭐⭐ (4.6/5)</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <div class="logo">
+                    <span class="logo-icon">🏓</span>
+                    <span class="logo-text">PickNews.vn</span>
+                </div>
+                <p>Nguồn tin tức pickleball hàng đầu Việt Nam, cung cấp thông tin chính xác và kịp thời về thế giới pickleball.</p>
+                <div class="social-links">
+                    <a href="#" aria-label="Facebook">📘</a>
+                    <a href="#" aria-label="Instagram">📷</a>
+                    <a href="#" aria-label="YouTube">📺</a>
+                    <a href="#" aria-label="TikTok">🎵</a>
+                </div>
+            </div>
+            <div class="footer-links">
+                <div class="link-group">
+                    <h4>Nội Dung</h4>
+                    <ul>
+                        <li><a href="tin-tuc.html">Tin Tức</a></li>
+                        <li><a href="giai-dau.html">Giải Đấu</a></li>
+                        <li><a href="san-pham.html">Sản Phẩm</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Về Chúng Tôi</h4>
+                    <ul>
+                        <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+                        <li><a href="#">Đội Ngũ</a></li>
+                        <li><a href="lien-he.html">Liên Hệ</a></li>
+                </div>
+                <div class="link-group">
+                    <h4>Hỗ Trợ</h4>
+                    <ul>
+                        <li><a href="#">Hướng Dẫn</a></li>
+                    </ul>
+                </div>
+                <div class="link-group">
+                    <h4>Liên Hệ</h4>
+                    <ul>
+                        <li>📧 info@picknews.vn</li>
+                        <li>📞 0123 456 789</li>
+                        <li>📍 123 Đường ABC</li>
+                        <li>🕒 24/7 Online</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2025 PickNews.vn. Tất cả quyền được bảo lưu.</p>
+        </div>
+    </footer>
+
+    <script src="./asset/js/main.js"></script>
+    <script>
+        // Product detail specific functions
+        function changeMainImage(thumbnail) {
+            const mainImage = document.getElementById('mainProductImage');
+            mainImage.src = thumbnail.src.replace('w=200&h=150', 'w=800&h=600');
+            
+            // Update active thumbnail
+            document.querySelectorAll('.thumbnail').forEach(t => t.classList.remove('active'));
+            thumbnail.classList.add('active');
+        }
+
+        function changeQuantity(delta) {
+            const quantityInput = document.getElementById('quantity');
+            let currentValue = parseInt(quantityInput.value);
+            let newValue = currentValue + delta;
+            
+            if (newValue >= 1 && newValue <= 10) {
+                quantityInput.value = newValue;
+            }
+        }
+
+        function toggleWishlist(button) {
+            const isLiked = button.classList.contains('liked');
+            if (isLiked) {
+                button.classList.remove('liked');
+                button.innerHTML = '<span>🤍 Yêu Thích</span>';
+            } else {
+                button.classList.add('liked');
+                button.innerHTML = '<span>❤️ Đã Thích</span>';
+            }
+        }
+
+        // Option selection
+        document.querySelectorAll('.option-btn, .color-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const group = this.closest('.option-group');
+                group.querySelectorAll('.option-btn, .color-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+            });
+        });
+
+        // Tab functionality for product details
+        document.querySelectorAll('.tab-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const tabId = this.dataset.tab;
+                
+                // Update active button
+                document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Show corresponding content
+                document.querySelectorAll('.tab-panel').forEach(panel => {
+                    panel.classList.remove('active');
+                    if (panel.id === tabId) {
+                        panel.classList.add('active');
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>

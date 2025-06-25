@@ -92,6 +92,7 @@ function renderNewsList(page = 1) {
                     <span class="news-date">${item.date}</span>
                     <span class="news-author">${item.author}</span>
                     <span class="news-views">👁️ ${item.views} lượt xem</span>
+                    <a href="chi-tiet-tin-tuc.html?id=${newsData.indexOf(item)}" class="news-btn">Xem chi tiết</a>
                 </div>
             </div>
         `;
