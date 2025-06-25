@@ -7,12 +7,26 @@
 document.getElementById("contactForm").addEventListener("submit", function (e) {
     e.preventDefault();
 
+    // Lấy giá trị các trường
+    const name = document.getElementById("name").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const phone = document.getElementById("phone").value.trim();
+    const subject = document.getElementById("subject").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    // Kiểm tra nếu có trường nào rỗng
+    if (!name || !email || !phone || !subject || !message) {
+        alert("Vui lòng điền đầy đủ tất cả các trường trước khi gửi.");
+        return;
+    }
+
+    // Gửi email
     emailjs.send("service_hzne0fq", "template_m5kiuhs", {
-        name: document.getElementById("name").value,
-        email: document.getElementById("email").value,
-        phone: document.getElementById("phone").value,     
-        subject: document.getElementById("subject").value,   
-        message: document.getElementById("message").value
+        name: name,
+        email: email,
+        phone: phone,
+        subject: subject,
+        message: message
     }).then(
         function (response) {
             alert("Gửi thành công! 🎉");

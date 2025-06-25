@@ -161,10 +161,10 @@ document.addEventListener('DOMContentLoaded', () => {
             // }
             
             // Simulate form submission
-            const submitBtn = contactForm.querySelector('.submit-btn');
-            const originalText = submitBtn.innerHTML;
-            submitBtn.innerHTML = '<span>Đang gửi...</span>';
-            submitBtn.disabled = true;
+            // const submitBtn = contactForm.querySelector('.submit-btn');
+            // const originalText = submitBtn.innerHTML;
+            // submitBtn.innerHTML = '<span>Đang gửi...</span>';
+            // submitBtn.disabled = true;
             
             // setTimeout(() => {
             //     alert('Cảm ơn bạn đã liên hệ! Chúng tôi sẽ phản hồi trong vòng 24 giờ.');
