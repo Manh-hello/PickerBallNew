@@ -3685,6 +3685,13 @@ body {
     color: #bdc3c7;
 }
 
+@media(max-width:1024px){
+    .featured-news-card,
+    .featured-product-card {
+        grid-template-columns: 1fr;
+    }
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
     .nav-links {
@@ -3822,6 +3829,22 @@ body {
     .tournament-tabs {
         flex-direction: column;
         align-items: center;
+    }
+
+    .news-grid,
+    .news-item,
+    .featured-news-card{
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 2rem;
+    }
+
+    .featured-news{
+        padding: 2rem 1rem;
+    }
+
+
+    .news-meta{
+        flex-wrap: wrap;
     }
 
     .category-btn,
